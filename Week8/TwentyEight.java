@@ -5,9 +5,9 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
  * @FileName TwentyEight.java
- * @Note Using the plugin programming style
+ * @Note Using the Actor programming style
  * @author Fuyao Li
- * @Date 11/16/2018
+ * @Date 11/23/2018
  * @param  txt file
  */
 
