@@ -93,9 +93,11 @@ public class ThirtyOne {
             //read the words line by line
             while ((s = br.readLine()) != null) {
                 sb.append(s);
-                sb.append(" ");
+                sb.append("\n");
             }
             String[] lines = sb.toString().split("\n");
+            
+            // System.out.println("length of lines" + lines.length);
 
             int paragraphNum = lines.length / lineNum;
             for (int i = 0; i < paragraphNum; i++) {
